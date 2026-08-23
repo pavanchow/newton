@@ -1,0 +1,13 @@
+[package]
+name = "newton"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pavan Nallamothu"]
+description = "A 2D physics engine in Rust, written from scratch."
+
+[[bin]]
+name = "newton"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
