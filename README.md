@@ -1,3 +1,5 @@
+<img src="docs/logo.svg" alt="Newton logo" width="96">
+
 # Newton
 
 **A 2D physics engine in Rust, built from scratch.**

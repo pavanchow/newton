@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Newton logo">
+  <!-- gravity trajectory -->
+  <path d="M40 20 q6 34 24 46" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 9"/>
+  <!-- apple body -->
+  <path d="M64 58 c-16 -12 -34 4 -30 24 c3 16 18 30 30 30 c12 0 27 -14 30 -30 c4 -20 -14 -36 -30 -24 Z" fill="#e11d48"/>
+  <!-- highlight -->
+  <ellipse cx="52" cy="74" rx="7" ry="10" fill="#fb7185" opacity=".7"/>
+  <!-- stem + leaf -->
+  <path d="M64 58 q2 -14 8 -20" fill="none" stroke="#7c4a2d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M72 40 q12 -8 18 -2 q-6 10 -18 2 Z" fill="#22c55e"/>
+</svg>
