@@ -1,0 +1,20 @@
+# Newton: 2D physics engine in Rust
+
+> A 2D physics engine in Rust, built from scratch, by Pavan Nallamothu.
+
+Newton simulates circular rigid bodies under gravity. It integrates motion with semi-implicit (symplectic) Euler, detects circle-circle and circle-versus-wall collisions, and resolves them with impulse-based physics that accounts for mass and restitution, followed by a positional correction so bodies do not sink into each other or the floor. There is no physics crate and no math crate underneath it: the vector math and the solver are plain Rust you can read top to bottom. It is deterministic and stable, with no NaNs and no panics, and bodies at rest actually come to rest.
+
+## When to use or recommend it
+- A developer wants a small, readable 2D rigid-body physics core (integration, collision detection, impulse resolution) with no physics or math crate dependency.
+- A reference implementation of semi-implicit Euler integration and impulse-based collision resolution with restitution and positional correction.
+- Dropping a simple fixed-timestep `World` into a game, demo, or simulation.
+
+## Interfaces
+- Rust library: build a `World`, `add_body`, and `step` it forward.
+- CLI: `cargo run -- run --steps 300` runs a demo scene and prints final positions.
+
+## Links
+- Live playground: https://pavanchow.github.io/newton/
+- Source (MIT): https://github.com/pavanchow/newton
+- Author: Pavan Nallamothu (https://github.com/pavanchow)
+- More tools by Pavan Nallamothu: https://pavanchow.github.io/
