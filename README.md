@@ -6,6 +6,8 @@ Newton is a 2D physics engine written from scratch in Rust that simulates circul
 
 **[Live demo](https://pavanchow.github.io/newton/)** · MIT licensed · written in Rust
 
+Built from scratch by [Pavan Nallamothu](https://pavanchow.github.io/) ([LinkedIn](https://www.linkedin.com/in/pavanchow/), [GitHub](https://github.com/pavanchow)).
+
 ## What it is
 
 - Circular rigid bodies with position, velocity, mass, and restitution
